@@ -1,0 +1,205 @@
+.logo{
+    position: relative;
+      
+}
+.top-right-image{
+    position:absolute;
+    top:20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+.navbar{
+    text-align: center;
+    margin-left: 40px;
+}
+.navbar-link{
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 20px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+
+}
+.navbar-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #5243c0;
+    margin: auto;
+    display: block;
+}
+.navbar-link:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.your-account-section{
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    font-weight: bold;
+    color: #5243c0;
+    background-color: pink;
+    border-radius: 20px;
+    border-width: 20px;
+    border: 5px solid pink;
+    font-size: 13px;
+    padding: 15px;
+    cursor: pointer;
+
+    
+}
+.control-landing-page{
+   float: right;
+    margin-top : 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.landing-page{
+    margin-top: 30px;
+    align-items: right;
+    margin-left: 120px;
+
+}
+.heading{
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 100px;
+    margin-left: 30px;
+}
+.purple-dot{
+    color: #5243c0;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 50px;
+    
+}
+.container{
+    margin-left: 50px;
+    align-items: center;
+}
+.paragraph{
+    color: rgb(88, 79, 79);
+    font-size: 24px;
+    align-items: center;
+    margin-left: 50px;
+}
+.new-account-section{
+    float: left;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #5243c0;
+    border-radius: 20px;
+    border-width: 40px;
+    border: 5px solid #5243c0;
+    font-size: 13px;
+    padding: 15px;
+    cursor: pointer;
+}
+.mouse{
+    cursor: pointer;
+}
+
+.table-1{
+    margin-left: 90px;
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.table-1:hover{
+    background-color: white;
+    
+
+}
+.table-1:hover .tick-image{
+    content:url("/Users/mohammed.yasin/Desktop/Assignment/Images/tick-blue.png");
+}
+
+
+
+ /* .row-1:hover::before{
+    content: url("/Users/mohammed.yasin/Downloads/tick-blue.png");
+    
+}  */
+
+.tick-image:hover{
+    content: url("/Users/mohammed.yasin/Desktop/Assignment/tick-blue.png");
+}
+
+
+    
+ 
+.gap1{
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+td,th{
+    width: 80px;
+}
+.img{
+    margin-left: 20px;
+    position: relative;
+}
+.color1{
+    color: #fed7da;
+    background-color: #fed7da;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    height: 0.2rem;
+    transform: scale(0.5);
+}
+
+.color2{
+    color: #FD6534;
+    background-color: #FD6534;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    height: 0.2rem;
+    transform: scale(0.5);
+    
+}
+.color3{
+    color: #9ED095;
+    background-color:#9ED095;
+     border-width: 0.1rem;
+    border-radius: 1rem;
+    height: 0.2rem;
+    transform: scale(0.5);
+   
+    
+}
+.color4{
+    color: #FFE4A0;
+    background-color: #FFE4A0;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    height: 0.2rem;
+    transform: scale(0.5);
+    
+}
+.date{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.user-pink{
+    margin-left: 20px;
+    align-items: center;
+}
